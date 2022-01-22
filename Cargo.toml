@@ -1,12 +1,12 @@
 [package]
-name = "template"
-version = "1.0.0"
+name = "old_norwegian_dictionary"
+version = "0.1.0"
 authors = ["stscoundrel / Sampo Silvennoinen"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/stscoundrel/rust-template"
+repository = "https://github.com/stscoundrel/old-norwegian-dictionary-rs"
 description = """
-Add definition here
+Old Norwegian/Norse Dictionary for Rust. The dictionary consists of 40 000+ Old Norse words with Norwegian translations.
 """
 edition = "2018"
 
