@@ -7,11 +7,16 @@ const DICTIONARY_PATH: &str = "src/dictionary/dataset/dictionary.json";
 
 /// Get full list of dictionary words.
 /// 
+/// The Result should always be safe to unwrap.
+/// Up to you if you wish to just unwrap, or wrap it in error handling.
+/// 
 /// # Examples
 /// 
 /// ```
 /// use old_norwegian_dictionary::{get_dictionary, DictionaryEntry};
 /// 
+/// // Returns a Result, which should always be safe to unwrap.
+/// // Up to you if you wish to just unwrap, or use other error handling method.
 /// let dictionary: Vec<DictionaryEntry> = get_dictionary().unwrap();
 /// 
 /// println!("First word is {}, definition for it being {}", &dictionary[0].word, &dictionary[0].definition)
