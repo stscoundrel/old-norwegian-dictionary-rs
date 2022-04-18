@@ -1,6 +1,6 @@
 [package]
 name = "old_norwegian_dictionary"
-version = "1.0.0"
+version = "2.0.0"
 authors = ["stscoundrel / Sampo Silvennoinen"]
 license = "MIT"
 readme = "README.md"
