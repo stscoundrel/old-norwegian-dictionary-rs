@@ -4,6 +4,5 @@
 //! 
 //! Based on "Dictionary of the Old Norwegian Language".
 
-mod reader;
 mod dictionary;
 pub use dictionary::{get_dictionary, DictionaryEntry};

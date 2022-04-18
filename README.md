@@ -18,12 +18,10 @@ old_norwegian_dictionary = "1.0.0"
 ```rust
 use old_norwegian_dictionary::{get_dictionary, DictionaryEntry};
 
-// Whole dictionary as a vector of DictionaryEntries.
+// Whole dictionary as an array of DictionaryEntries.
 let dictionary = get_dictionary();
 
-// Returns a Result, which should always be safe to unwrap.
-// Up to you if you wish to just unwrap, or use other error handling method.
-let dictionary_content: Vec<DictionaryEntry> = dictionary.unwrap();
+let dictionary_content: [DictionaryEntry; 42021] = get_dictionary();
 
 println!("A word from dictionary: {}. Its definition is: {}. Its type if {}", &dictionary_content[0].word, &dictionary_content[0].definition, &dictionary_content[0].part_of_speech)
 ```
