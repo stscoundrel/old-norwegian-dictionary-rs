@@ -10,7 +10,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-old_norwegian_dictionary = "1.0.0"
+old_norwegian_dictionary = "2.0.0"
 ```
 
 ### Usage
